@@ -1,0 +1,11 @@
+USE SchoolDB;
+GO
+
+CREATE TABLE Courses
+(
+    CourseID INT PRIMARY KEY IDENTITY(1,1),
+    CourseCode VARCHAR(10) NOT NULL,
+    CourseName VARCHAR(100) NOT NULL,
+    Credits INT NOT NULL
+);
+GO
