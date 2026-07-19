@@ -209,3 +209,17 @@ VALUES
 SELECT *
 FROM Enrollments
 WHERE StudentID = 6;
+
+
+/*Check runing Trigger */
+
+SELECT
+    name,
+    parent_class_desc
+FROM sys.triggers;
+
+
+SELECT
+    name,
+    OBJECT_NAME(parent_id) AS TableName
+FROM sys.triggers;
