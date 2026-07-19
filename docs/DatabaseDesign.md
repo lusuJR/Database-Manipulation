@@ -46,7 +46,8 @@ The SchoolDB database is designed to manage student registrations, course inform
 
 ## Entity Relationship Diagram
 
-*(Insert the SchoolDB_ERD.png here.)*
+<img width="767" height="234" alt="image" src="https://github.com/user-attachments/assets/f6a3f92e-5a03-46d5-92a1-8f9da10cd40a" />
+
 
 ---
 
